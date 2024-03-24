@@ -4,7 +4,6 @@ that could lead to something or nothing, the inspiration came from `Telegram`-li
 
 ---
 
-<br>
 #### Contents
 
 ###### Snow-like animation
