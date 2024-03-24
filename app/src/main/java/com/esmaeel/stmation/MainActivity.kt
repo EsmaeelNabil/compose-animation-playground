@@ -41,7 +41,10 @@ class MainActivity : ComponentActivity() {
                         AnimatedShapesSystem(
                             onClick = { /* Do something on click */ },
                             emissionArea = Rect(
-                                offset = Offset(size.width.toFloat()/2, size.height.toFloat()/2),
+                                offset = Offset(
+                                    size.width.toFloat() / 2,
+                                    size.height.toFloat() / 2
+                                ),
                                 Size(size.width.toFloat(), size.height.toFloat())
                             ),
                             refreshRate = 40,
@@ -65,19 +68,6 @@ class MainActivity : ComponentActivity() {
                             ),
                         )
 
-//                        Column(
-//                            Modifier.fillMaxSize(),
-//                            verticalArrangement = Arrangement.Center,
-//                            horizontalAlignment = Alignment.CenterHorizontally
-//                        ) {
-//
-//
-//                            Button(onClick = {
-//                                showStickers = !showStickers
-//                            }) {
-//                                Text("Click me")
-//                            }
-//                        }
                     }
                 }
             }
